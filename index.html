@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Spice Garden - Premium Indian Restaurant in Pune. Book tables online.">
+<meta name="keywords" content="Restaurant in Pune, Indian Food, Table Booking">
+<title>Spice Garden | Premium Restaurant Pune</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="header">
+<div class="logo">Spice Garden</div>
+
+<nav class="nav" id="nav">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>Luxury Indian Dining Experience</h1>
+<p>Authentic flavors. Elegant ambience. Unforgettable memories.</p>
+<a href="#contact" class="btn">Reserve Table</a>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About Us</h2>
+<p>Spice Garden is a premium dining restaurant in Pune offering authentic Indian cuisine with a modern luxury atmosphere.</p>
+</section>
+
+<section class="menu" id="menu">
+<h2>Our Signature Dishes</h2>
+<div class="menu-grid">
+<div class="menu-card"><h3>Butter Chicken</h3><p>₹350</p></div>
+<div class="menu-card"><h3>Paneer Tikka</h3><p>₹280</p></div>
+<div class="menu-card"><h3>Veg Biryani</h3><p>₹300</p></div>
+<div class="menu-card"><h3>Gulab Jamun</h3><p>₹120</p></div>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<h2>Our Ambience</h2>
+<div class="gallery-grid">
+<img src="https://images.unsplash.com/photo-1555992336-03a23c97d1b2">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+<img src="https://images.unsplash.com/photo-1543353071-873f17a7a088">
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Book Your Table</h2>
+<form id="bookingForm">
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email Address" required>
+<input type="date" id="date" required>
+<textarea id="message" placeholder="Special Requests"></textarea>
+<button type="submit" class="btn">Submit Booking</button>
+</form>
+
+<div class="map">
+<iframe src="https://www.google.com/maps?q=Pune&output=embed"></iframe>
+</div>
+
+</section>
+
+<a href="https://wa.me/919999999999" class="whatsapp" target="_blank">Chat on WhatsApp</a>
+
+<footer>
+<p>© 2026 Spice Garden Restaurant | Pune | All Rights Reserved</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
